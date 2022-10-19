@@ -11,7 +11,7 @@ def frequencies(items):
             i = str(i)
 
         if i in frequencies:#increment if already dictionary
-            frequencies[i] = frequences.get(i) + 1
+            frequencies[i] = frequencies.get(i) + 1
         else:#if not in dictionary then create it with the starting value of 1
             frequencies[str(i)]=1
 
